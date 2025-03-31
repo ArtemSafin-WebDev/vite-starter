@@ -1,13 +1,14 @@
+@use "media";
+
 :root {
   --primary-color: #418dd9;
   --text-color: #000d1a;
-  --dark-bg: #1f262d;
-  --bg: white;
+  --red: #f60a18;
   --onest: "Onest", sans-serif;
   --content-padding: 4rem;
-  --container-width: 152.4rem;
+  --container-width: 148rem;
 
-  @include breakpoint(mobile) {
-    --content-padding: 1.6rem;
+  @include media.breakpoint(mobile) {
+    --content-padding: 2rem;
   }
 }
